@@ -7,6 +7,7 @@ easier for you to make a digital receipt of your sale.
 -   React Native 
 -   React Native Date Picker
 -   React Native Material Bottom Navigation
+-   React Native Material Dropdown
 -   React Native Photo Upload
 -   React Native Router Flux
 -   React Native Vector Icons

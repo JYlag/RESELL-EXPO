@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5bf559b-a312-4d67-8c35-a360493b1011" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/BrandDataReducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/ConditionDataReducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/SizeDataReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddItem/AddShoes.js" afterPath="$PROJECT_DIR$/src/components/AddItem/AddShoes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js" afterPath="$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Inventories/TicketInventory.js" afterPath="$PROJECT_DIR$/src/components/Inventories/TicketInventory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js" afterPath="$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/BrandData.json" afterPath="$PROJECT_DIR$/src/reducers/BrandData.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/ConditionData.json" afterPath="$PROJECT_DIR$/src/reducers/ConditionData.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/SizeData.json" afterPath="$PROJECT_DIR$/src/reducers/SizeData.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +15,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="ShoesInventory.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ShoesInventory.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
                   <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="135">
+                    <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -98,16 +100,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
                   <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SizeDataReducer.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/reducers/SizeDataReducer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -223,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js" />
         <option value="$PROJECT_DIR$/src/components/AddItem/AddKicks.js" />
         <option value="$PROJECT_DIR$/src/components/AddItem/AddClothing.js" />
@@ -266,6 +257,7 @@
         <option value="$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js" />
         <option value="$PROJECT_DIR$/src/components/Inventories/TicketInventory.js" />
         <option value="$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -495,12 +487,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525640108555</updated>
-      <workItem from="1525640111137" duration="16422000" />
+      <workItem from="1525640111137" duration="16528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16422000" />
+    <option name="totallyTimeSpent" value="16528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -561,17 +553,6 @@
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="35" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -949,6 +930,17 @@
         <state relative-caret-position="45">
           <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
