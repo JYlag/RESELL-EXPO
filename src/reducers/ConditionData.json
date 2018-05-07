@@ -1,18 +1,18 @@
 [
   {
-    "condition": "Deadstock",
-    "value": "DS"
+    "value": "Deadstock",
+    "condition": "DS"
   },
   {
-    "condition": "Very Near Deadstock",
-    "value": "VNDS"
+    "value": "Very Near Deadstock",
+    "condition": "VNDS"
   },
   {
-    "condition": "Near Deadstock",
-    "value": "NDS"
+    "value": "Near Deadstock",
+    "condition": "NDS"
   },
   {
-    "condition": "Used",
-    "value": "Used"
+    "value": "Used",
+    "condition": "Used"
   }
 ]

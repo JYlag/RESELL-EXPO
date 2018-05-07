@@ -21,19 +21,17 @@ class TicketInventory extends Component {
         this.createDataSource(nextProps)
     }
 
-    createDataSource({ items }) {
+    createDataSource({ tickets }) {
 
         const ds = new ListView.DataSource({
             rowHasChanged: (r1,r2) => r1 !== r2
         });
 
-        console.log(items);
-
-        this.dataSource = ds.cloneWithRows(items);
+        this.dataSource = ds.cloneWithRows(tickets);
     }
 
-    renderRow(item) {
-        return <TicketItem item={ item } />
+    renderRow(ticket) {
+        return <TicketItem ticket={ ticket } />
     }
 
     render() {
@@ -57,13 +55,11 @@ const styles = {
 }
 
 const mapStateToProps = state => {
-    const items = _.map(state.items, ( val, uid ) => {
+    const tickets = _.map(state.items, ( val, uid ) => {
         return {...val, uid};
     });
 
-    console.log(items);
-
-    return { items };
+    return { tickets };
 };
 
 export default connect(mapStateToProps, { fetchTickets })(TicketInventory);

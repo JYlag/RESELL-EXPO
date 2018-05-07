@@ -11,7 +11,7 @@ class TicketItem extends Component {
 
     renderDescription() {
 
-        const { item } = this.props;
+        const { ticket } = this.props;
 
         const {
             sectionContainer,
@@ -31,13 +31,13 @@ class TicketItem extends Component {
                         <View style={sectionContainer}>
                             <Text style={ sectionTextStyle }>Event Date</Text>
                             <Text style={ ticketSectionStyle }>
-                                { item.eventDate }
+                                { ticket.eventDate }
                             </Text>
                         </View>
                         <View style={sectionContainer}>
                             <Text style={ sectionTextStyle }>Sold Date</Text>
                             <Text style={ ticketSectionStyle }>
-                                { item.sellDate }
+                                { ticket.sellDate }
                             </Text>
                         </View>
                     </View>
@@ -46,19 +46,19 @@ class TicketItem extends Component {
                         <View style={sectionContainer}>
                             <Text style={ticketCategoryStyle}>SEC</Text>
                             <Text style={ticketSeatInfoStyle}>
-                                { item.section }
+                                { ticket.section }
                             </Text>
                         </View>
                         <View style={sectionContainer}>
                             <Text style={ticketCategoryStyle}>ROW</Text>
                             <Text style={ticketSeatInfoStyle}>
-                                { item.row }
+                                { ticket.row }
                             </Text>
                         </View>
                         <View style={sectionContainer}>
                             <Text style={ticketCategoryStyle}>SEAT</Text>
                             <Text style={ticketSeatInfoStyle}>
-                                { item.seat }
+                                { ticket.seat }
                             </Text>
                         </View>
                     </View>
@@ -67,19 +67,19 @@ class TicketItem extends Component {
                         <View style={sectionContainer}>
                             <Text style={ sectionTextStyle }>Retail Price</Text>
                             <Text style={ ticketSectionStyle }>
-                                ${ item.retailPrice }
+                                ${ ticket.retailPrice }
                             </Text>
                         </View>
                         <View style={sectionContainer}>
                             <Text style={ sectionTextStyle }>Resell Price</Text>
                             <Text style={ ticketSectionStyle }>
-                                ${ item.resellPrice }
+                                ${ ticket.resellPrice }
                             </Text>
                         </View>
                         <View style={sectionContainer}>
                             <Text style={ sectionTextStyle }>Total Profit</Text>
                             <Text style={ ticketSectionStyle }>
-                                ${ item.resellPrice - item.retailPrice}
+                                ${ ticket.resellPrice - ticket.retailPrice}
                             </Text>
                         </View>
                     </View>
@@ -91,7 +91,7 @@ class TicketItem extends Component {
 
     render() {
 
-        const { eventName} = this.props.item;
+        const { eventName } = this.props.ticket;
 
         const { itemTitle, infoSectionStyle } = styles;
 

@@ -6,6 +6,9 @@ import ItemReducer from "./ItemReducer";
 import AddShoesReducer from "./AddItemReducers/AddShoesReducer";
 import AddElectronicsReducer from "./AddItemReducers/AddElectronicsReducer";
 import AddClothingReducer from "./AddItemReducers/AddClothingReducer";
+import SizeDataReducer from "./SizeDataReducer";
+import BrandDataReducer from "./BrandDataReducer";
+import ConditionDataReducer from "./ConditionDataReducer";
 
 export default combineReducers({
     auth: AuthReducer,
@@ -14,5 +17,8 @@ export default combineReducers({
     addShoes: AddShoesReducer,
     addElectronics: AddElectronicsReducer,
     addClothing: AddClothingReducer,
-    items: ItemReducer
+    items: ItemReducer,
+    sizeData: SizeDataReducer,
+    brandData: BrandDataReducer,
+    conditionData: ConditionDataReducer
 });

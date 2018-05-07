@@ -1,26 +1,26 @@
 [
   {
-  "brand": "Nike",
-  "index": 0
+    "value": "Nike",
+    "index": 0
   },
   {
-    "brand": "Jordan",
+    "value": "Jordan",
     "index": 1
   },
   {
-    "brand": "Adidas",
+    "value": "Adidas",
     "index": 2
   },
   {
-    "brand": "Reebok",
+    "value": "Reebok",
     "index": 3
   },
   {
-    "brand": "Puma",
+    "value": "Puma",
     "index": 4
   },
   {
-    "brand": "Yeezy",
+    "value": "Yeezy",
     "index": 5
   }
 ]

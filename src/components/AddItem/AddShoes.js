@@ -74,15 +74,27 @@ class AddShoes extends Component {
                     </View>
                     <View>
                         <View>
-                            <Text>Size</Text>
+                            <Dropdown
+                            label="Size"
+                            data={ this.props.sizeData }
+                            onChangeText={ value => this.props.shoeUpdated({ prop: 'size', value})}
+                            />
                         </View>
 
                         <View>
-                            <Text>Brand</Text>
+                            <Dropdown
+                            label="Brand"
+                            data={ this.props.brandData }
+                            onChangeText={ value => this.props.shoeUpdated({ prop: 'brand', value})}
+                            />
                         </View>
 
                         <View>
-                            <Text>Condition</Text>
+                            <Dropdown
+                            label="Condition"
+                            data={ this.props.conditionData }
+                            onChangeText={ value => this.props.shoeUpdated({ prop: 'condition', value})}
+                            />
                         </View>
                     </View>
 
@@ -137,9 +149,30 @@ class AddShoes extends Component {
 }
 
 const mapStateToProps = (state) => {
-    const { shoes, size, retailPrice, resellPrice, brand, condition, buyer } = state.addShoes;
+    const {
+        shoes,
+        size,
+        retailPrice,
+        resellPrice,
+        brand,
+        condition,
+        buyer
+    } = state.addShoes;
 
-    return { shoes, size, retailPrice, resellPrice, brand, condition, buyer }
+
+
+    return {
+        shoes,
+        size,
+        retailPrice,
+        resellPrice,
+        brand,
+        condition,
+        buyer,
+        sizeData: state.sizeData,
+        brandData: state.brandData,
+        conditionData: state.conditionData
+    }
 }
 
 export default connect(mapStateToProps, { shoeCreate, shoeUpdated })(AddShoes);
