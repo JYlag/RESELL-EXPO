@@ -1,28 +1,24 @@
 import {
-    ITEM_CREATE,
-    ITEM_UPDATED,
-    ITEM_RESET
-} from "../actions/types";
+    ELECTRONICS_CREATE,
+    ELECTRONICS_UPDATED
+} from "../../actions/types";
 
 const INITIAL_STATE = {
-    eventName: "",
-    quantity: 0,
+    entity: "",
     retailPrice: 0,
     resellPrice: 0,
-    section: "",
-    row: "",
-    seat: "",
+    brand: "",
+    condition: "",
+    seller: "",
     otherInfo: ""
 };
 
 export default (state = INITIAL_STATE, action ) => {
 
     switch ( action.type ) {
-        case ITEM_UPDATED:
+        case ELECTRONICS_CREATE:
             return {...state, [action.payload.prop]: action.payload.value};
-        case ITEM_CREATE:
-            return INITIAL_STATE;
-        case ITEM_RESET:
+        case ELECTRONICS_UPDATED:
             return INITIAL_STATE;
         default:
             return state;

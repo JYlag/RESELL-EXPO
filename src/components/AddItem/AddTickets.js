@@ -4,11 +4,11 @@ import { PlusButton, MinusButton } from "../common";
 import DatePicker from 'react-native-datepicker';
 import { connect } from 'react-redux';
 import {
-    itemUpdated,
-    itemCreate
-} from "../../actions/ItemActions";
+    ticketUpdated,
+    ticketCreate
+} from "../../actions/ItemActions/TicketActions";
 
-class AddItem extends Component {
+class AddTickets extends Component {
 
     state = {
         sellDate: "",
@@ -33,7 +33,7 @@ class AddItem extends Component {
             sellDate
         } = this.state;
 
-        this.props.itemCreate({
+        this.props.ticketCreate({
             eventName,
             quantity,
             retailPrice,
@@ -51,7 +51,7 @@ class AddItem extends Component {
 
         newQuantity = currentQuantity + 1;
 
-        this.props.itemUpdated({ prop: 'quantity', value: newQuantity});
+        this.props.ticketUpdated({ prop: 'quantity', value: newQuantity});
 
         console.log(newQuantity);
     }
@@ -60,7 +60,7 @@ class AddItem extends Component {
 
         newQuantity = currentQuantity - 1;
 
-        this.props.itemUpdated({prop: 'quantity', value: newQuantity});
+        this.props.ticketUpdated({prop: 'quantity', value: newQuantity});
 
         console.log(newQuantity);
     }
@@ -129,7 +129,7 @@ class AddItem extends Component {
                     <TextInput
                         placeholder="Enter Event Name"
                         style={[ inputStyle, { marginLeft: 10 } ]}
-                        onChangeText={ value => this.props.itemUpdated({ prop: 'eventName', value })}
+                        onChangeText={ value => this.props.ticketUpdated({ prop: 'eventName', value })}
                     />
                     </View>
 
@@ -163,7 +163,7 @@ class AddItem extends Component {
                             <View style={ componentStyle}>
                                 <Text style={{ marginTop: 5}}>Retail Price($)</Text>
                                 <TextInput
-                                    onChangeText={ value => this.props.itemUpdated({ prop: 'retailPrice', value })}
+                                    onChangeText={ value => this.props.ticketUpdated({ prop: 'retailPrice', value })}
                                     keyboardType="numeric"
                                     style={ smallInputStyle }
                                 />
@@ -178,7 +178,7 @@ class AddItem extends Component {
                             <View style={ componentStyle }>
                                 <Text style={{ marginTop: 5}}>Sold($)</Text>
                                 <TextInput
-                                    onChangeText={ value => this.props.itemUpdated({ prop: 'resellPrice', value })}
+                                    onChangeText={ value => this.props.ticketUpdated({ prop: 'resellPrice', value })}
                                     keyboardType="numeric"
                                     style={ smallInputStyle }
                                 />
@@ -193,7 +193,7 @@ class AddItem extends Component {
                                 <View style={seatText}>
                                     <Text>SEC</Text>
                                     <TextInput
-                                    onChangeText={ value => this.props.itemUpdated({ prop: 'section', value })}
+                                    onChangeText={ value => this.props.ticketUpdated({ prop: 'section', value })}
                                     style={ seatInputStyle }
                                     returnKeyType="done"
                                     />
@@ -201,7 +201,7 @@ class AddItem extends Component {
                                 <View style={seatText}>
                                     <Text>ROW</Text>
                                     <TextInput
-                                    onChangeText={ value => this.props.itemUpdated({ prop: 'row', value })}
+                                    onChangeText={ value => this.props.ticketUpdated({ prop: 'row', value })}
                                     style={ seatInputStyle }
                                     returnKeyType="done"
                                     />
@@ -209,7 +209,7 @@ class AddItem extends Component {
                                 <View style={seatText}>
                                     <Text>SEAT</Text>
                                     <TextInput
-                                    onChangeText={ value => this.props.itemUpdated({ prop: 'seat', value })}
+                                    onChangeText={ value => this.props.ticketUpdated({ prop: 'seat', value })}
                                     style={ seatInputStyle }
                                     returnKeyType="done"
                                     />
@@ -228,7 +228,7 @@ class AddItem extends Component {
                             borderColor: '#e6e6e6'
                         }}>
                             <TextInput
-                            onChangeText={ value => this.props.itemUpdated({ prop: 'otherInfo', value })}
+                            onChangeText={ value => this.props.ticketUpdated({ prop: 'otherInfo', value })}
                             multiline={true}
                             returnKeyType="done"
                             style={{ height: 100 }}
@@ -325,10 +325,10 @@ const styles = {
 
 const mapStateToProps = (state) => {
 
-    const { eventName, quantity, retailPrice, resellPrice, section, row, seat, otherInfo } = state.addItems;
+    const { eventName, quantity, retailPrice, resellPrice, section, row, seat, otherInfo } = state.addTickets;
 
     return { eventName, quantity, retailPrice, resellPrice, section, row, seat, otherInfo };
 
 };
 
-export default connect(mapStateToProps, { itemUpdated, itemCreate })(AddItem);
+export default connect(mapStateToProps, { ticketUpdated, ticketCreate })(AddTickets);

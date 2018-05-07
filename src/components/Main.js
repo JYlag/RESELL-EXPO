@@ -30,7 +30,7 @@ class Main extends Component {
                                 <Text style={ categoryTitleStyle }>Tickets</Text>
                                 <View style={ iconStyle }>
                                     <TouchableOpacity
-                                        onPress={ () => { Actions.inventory() } }
+                                        onPress={ () => { Actions.ticket_inventory() } }
                                         style={{ flex:1 }}
                                     >
                                         <MaterialCommunityIcon
@@ -46,7 +46,7 @@ class Main extends Component {
                                 <Text style={ categoryTitleStyle }>Kicks</Text>
                                 <View style={ iconStyle }>
                                     <TouchableOpacity
-                                        onPress={ () => { } }
+                                        onPress={ () => { Actions.shoes_inventory() } }
                                         style={{ flex:1 }}
                                     >
                                         <MaterialCommunityIcon

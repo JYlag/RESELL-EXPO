@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableWithoutFeedback, ListView } from 'react-native';
-import { Card, CardSection} from "./common";
+import { View, ListView } from 'react-native';
 import { connect } from 'react-redux';
-import SortList from './SortList';
-import InventoryItem from "./InventoryItem";
-import { fetchItems } from "../actions/ItemActions";
+import TicketItem from "../InventoryItems/TicketItem";
+import { fetchTickets } from "../../actions/ItemActions/TicketActions";
 import _ from 'lodash';
 
 
-class InventoryList extends Component {
+class TicketInventory extends Component {
 
     componentWillMount() {
-        this.props.fetchItems();
+        this.props.fetchTickets();
 
         this.createDataSource( this.props );
     }
@@ -35,17 +33,17 @@ class InventoryList extends Component {
     }
 
     renderRow(item) {
-        return <InventoryItem item={ item } />
+        return <TicketItem item={ item } />
     }
 
     render() {
         return (
             <View style={ styles.containerStyle }>
                 <ListView
-                enableEmptySections
-                dataSource={this.dataSource}
-                renderRow={this.renderRow}
-                style={{ }}
+                    enableEmptySections
+                    dataSource={this.dataSource}
+                    renderRow={this.renderRow}
+                    style={{ }}
                 />
             </View>
         );
@@ -60,7 +58,7 @@ const styles = {
 
 const mapStateToProps = state => {
     const items = _.map(state.items, ( val, uid ) => {
-       return {...val, uid};
+        return {...val, uid};
     });
 
     console.log(items);
@@ -68,4 +66,4 @@ const mapStateToProps = state => {
     return { items };
 };
 
-export default connect(mapStateToProps, { fetchItems })(InventoryList);
+export default connect(mapStateToProps, { fetchTickets })(TicketInventory);

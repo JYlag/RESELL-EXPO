@@ -1,0 +1,18 @@
+[
+  {
+    "condition": "Deadstock",
+    "value": "DS"
+  },
+  {
+    "condition": "Very Near Deadstock",
+    "value": "VNDS"
+  },
+  {
+    "condition": "Near Deadstock",
+    "value": "NDS"
+  },
+  {
+    "condition": "Used",
+    "value": "Used"
+  }
+]

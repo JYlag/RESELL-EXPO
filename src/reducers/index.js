@@ -1,12 +1,18 @@
 import { combineReducers } from 'redux';
 import AuthReducer from "./AuthReducer";
 import SignUpReducer from "./SignUpReducer";
-import AddItemReducer from "./AddItemReducer";
+import AddTicketReducer from "./AddItemReducers/AddTicketReducer";
 import ItemReducer from "./ItemReducer";
+import AddShoesReducer from "./AddItemReducers/AddShoesReducer";
+import AddElectronicsReducer from "./AddItemReducers/AddElectronicsReducer";
+import AddClothingReducer from "./AddItemReducers/AddClothingReducer";
 
 export default combineReducers({
     auth: AuthReducer,
     signup: SignUpReducer,
-    addItems: AddItemReducer,
+    addTickets: AddTicketReducer,
+    addShoes: AddShoesReducer,
+    addElectronics: AddElectronicsReducer,
+    addClothing: AddClothingReducer,
     items: ItemReducer
 });

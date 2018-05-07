@@ -1,0 +1,26 @@
+[
+  {
+  "brand": "Nike",
+  "index": 0
+  },
+  {
+    "brand": "Jordan",
+    "index": 1
+  },
+  {
+    "brand": "Adidas",
+    "index": 2
+  },
+  {
+    "brand": "Reebok",
+    "index": 3
+  },
+  {
+    "brand": "Puma",
+    "index": 4
+  },
+  {
+    "brand": "Yeezy",
+    "index": 5
+  }
+]

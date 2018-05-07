@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
-import { Text, View, LayoutAnimation, TouchableOpacity, TouchableWithoutFeedback } from 'react-native';
-import {CardSection} from "./common/CardSection";
-import { selectedItem } from "../actions/ItemActions";
-import { connect } from 'react-redux';
+import { Text, View, TouchableOpacity } from 'react-native';
 
-class InventoryItem extends Component {
+class TicketItem extends Component {
 
     state = { expanded: false };
-
-    componentDidUpdate() {
-        //LayoutAnimation.spring();
-
-    }
 
     changeExpanded(expanded) {
         this.setState({ expanded: !expanded })
@@ -34,7 +26,7 @@ class InventoryItem extends Component {
 
         if ( this.state.expanded ) {
             return (
-                <CardSection style={{ flexDirection: 'column'}}>
+                <View style={{ flexDirection: 'column', backgroundColor: '#ffffff'}}>
                     <View style={ dateRowStyle }>
                         <View style={sectionContainer}>
                             <Text style={ sectionTextStyle }>Event Date</Text>
@@ -92,7 +84,7 @@ class InventoryItem extends Component {
                         </View>
                     </View>
 
-                </CardSection>
+                </View>
             );
         }
     }
@@ -172,4 +164,4 @@ const styles = {
     }
 };
 
-export default connect(null, { selectedItem })(InventoryItem);
+export default TicketItem;
