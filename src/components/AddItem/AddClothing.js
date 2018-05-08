@@ -64,90 +64,155 @@ class AddClothing extends Component {
     }
 
     render() {
+
+        const { backgroundStyle, containerStyle, inputStyle, infoSection, smallInputStyle, buttonStyle } = styles;
+
         return (
-            <View>
-                <View>
-                    <View>
-                        <TextInput
-                        placeholder="Enter Clothing Item Name"
-                        onChangeText={ value => this.props.clothingUpdated({ prop: 'name', value })}
-                        />
-                    </View>
-
-                    <View>
-                        <TextInput
-                        placeholder="Brand Name"
-                        onChangeText={ value => this.props.clothingUpdated({ prop: 'brand', value })}
-                        />
-                    </View>
-                </View>
-
-                <View>
-                    <View>
-                        <Text>Size</Text>
-                        <TextInput
-                        onChangeText={ value => this.props.clothingUpdated({ prop: 'size', value })}
-                        />
-                    </View>
-
-                    <View>
-                        <Text>Condition</Text>
-                        <TextInput
-                        onChangeText={ value => this.props.clothingUpdated({ prop: 'condition', value })}
-                        multiline={true}
-                        />
-                    </View>
-
-                    <View>
-                        <Text>Other Infomation</Text>
-                        <TextInput
-                        onChangeText={ value => this.props.clothingUpdated({ prop: 'resellPrice', value })}
-                        multiline={true}
-                        />
-                    </View>
-                </View>
-
-                <View>
+            <View style={ backgroundStyle }>
+                <View style={ containerStyle }>
                     <View>
                         <View>
-                            <Text>Retail Price($)</Text>
                             <TextInput
-                            onChangeText={ value => this.props.clothingUpdated({ prop: 'retailPrice', value })}
+                            placeholder="Enter Clothing Item Name"
+                            onChangeText={ value => this.props.clothingUpdated({ prop: 'name', value })}
+                            style={ inputStyle }
                             />
                         </View>
 
                         <View>
-                            <Text>Resell Price($)</Text>
                             <TextInput
-                            onChangeText={ value => this.props.clothingUpdated({ prop: 'resellPrice', value })}
+                            placeholder="Brand Name"
+                            onChangeText={ value => this.props.clothingUpdated({ prop: 'brand', value })}
+                            style={[ inputStyle, {fontSize: 14} ]}
                             />
                         </View>
                     </View>
+
+                    <View style={ infoSection }>
+                        <View style={{ flexDirection: 'row', marginVertical: 20 }}>
+                            <View style={{ flex: 1, alignSelf: 'center', alignItems: 'center'}}>
+                                <Text>Size</Text>
+                                <TextInput
+                                onChangeText={ value => this.props.clothingUpdated({ prop: 'size', value })}
+                                style={{ borderBottomWidth: 1, borderColor: '#e6e6e6', width: 150, marginVertical: 5 }}
+                                />
+                            </View>
+
+                            <View style={{ flex: 1, alignSelf: 'center', alignItems: 'center'}}>
+                                <Text>Condition</Text>
+                                <TextInput
+                                onChangeText={ value => this.props.clothingUpdated({ prop: 'condition', value })}
+                                style={{ borderBottomWidth: 1, borderColor: '#e6e6e6', width: 150, marginVertical: 5 }}
+                                multiline={true}
+                                />
+                            </View>
+                        </View>
+
+                        <View>
+                            <Text>Other Infomation</Text>
+                            <View style={{ flexDirection: 'row' }}>
+                                <TextInput
+                                onChangeText={ value => this.props.clothingUpdated({ prop: 'resellPrice', value })}
+                                style={{ height: 100, flex: 1, justifyContent: 'center', borderWidth: 1, marginTop: 5 }}
+                                multiline={true}
+                                />
+                            </View>
+                        </View>
+                    </View>
+
                     <View>
-                        <View>
-                            <Text>Buyer:</Text>
-                            <TextInput
-                            onChangeText={ value => this.props.clothingUpdated({ prop: 'resellPrice', value })}
-                            />
-                        </View>
+                        <View style={{ flexDirection: 'row', marginVertical: 20 }}>
+                            <View style={{ flex: 1, alignSelf: 'center', alignItems: 'center'}}>
+                                <Text>Retail Price($)</Text>
+                                <TextInput
+                                onChangeText={ value => this.props.clothingUpdated({ prop: 'retailPrice', value })}
+                                style={ smallInputStyle }
+                                />
+                            </View>
 
-                        <View>
-                            { this.renderSellDate() }
+                            <View style={{ flex: 1, alignSelf: 'center', alignItems: 'center'}}>
+                                <Text>Resell Price($)</Text>
+                                <TextInput
+                                onChangeText={ value => this.props.clothingUpdated({ prop: 'resellPrice', value })}
+                                style={ smallInputStyle }
+                                />
+                            </View>
+                        </View>
+                        <View style={{ justifyContent: 'center', alignItems: 'center'}}>
+                            <View style={{ flexDirection: 'row' }}>
+                                <Text>Sold To:</Text>
+                                <TextInput
+                                onChangeText={ value => this.props.clothingUpdated({ prop: 'resellPrice', value })}
+                                style={{ borderBottomWidth: 1, borderColor: '#e6e6e6', width: 150, marginHorizontal: 5 }}
+                                />
+                            </View>
+
+                            <View style={{ marginVertical: 20 }}>
+                                { this.renderSellDate() }
+                            </View>
                         </View>
                     </View>
-                </View>
 
-                <View>
-                    <TouchableWithoutFeedback
-                    onPress={ this.onButtonPress.bind(this) }
-                    >
-                        <View>
-                            <Text>SAVE</Text>
-                        </View>
-                    </TouchableWithoutFeedback>
+                    <View style={ buttonStyle } >
+                        <TouchableWithoutFeedback
+                        onPress={ this.onButtonPress.bind(this) }
+                        >
+                            <View>
+                                <Text style={{ color: '#ffffff', fontSize: 18 }}>SAVE</Text>
+                            </View>
+                        </TouchableWithoutFeedback>
+                    </View>
                 </View>
             </View>
         );
+    }
+}
+const styles = {
+    backgroundStyle: {
+        backgroundColor: '#42A5F5',
+        flex: 1
+    },
+    containerStyle: {
+        backgroundColor: '#fbfbfb',
+        margin: 7,
+        flex: 0,
+        flexDirection: 'column',
+        borderWidth: 1,
+        borderColor: '#e6e6e6',
+        borderRadius: 2
+    },
+    inputStyle: {
+        borderRadius: 2,
+        backgroundColor: '#fbfbfb',
+        height: 45,
+        fontSize: 20,
+        borderBottomWidth: 1,
+        borderColor: '#e6e6e6',
+        marginHorizontal: 5
+    },
+    infoSection: {
+        flexDirection: 'column',
+        marginHorizontal: 5
+    },
+    smallInputStyle: {
+        borderWidth: 1,
+        width: 60,
+        height: 40,
+        fontSize: 20,
+        textAlign: 'center',
+        marginVertical: 10,
+        borderRadius: 2,
+        borderColor: '#e6e6e6'
+    },
+    buttonStyle: {
+        backgroundColor: '#82b7fc',
+        borderWidth: 1,
+        borderRadius: 2,
+        borderColor: '#82b7fc',
+        marginHorizontal: 10,
+        marginBottom: 10,
+        paddingVertical: 12,
+        alignItems: 'center'
     }
 }
 

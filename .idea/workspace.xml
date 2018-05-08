@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5bf559b-a312-4d67-8c35-a360493b1011" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/Data/ClothingSizeData.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/Data/ElectronicConditionDataReducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/Data/ElectronicConditionDataReducer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/reducers/BrandData.json" afterPath="$PROJECT_DIR$/src/reducers/Data/BrandData.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/reducers/BrandDataReducer.js" afterPath="$PROJECT_DIR$/src/reducers/Data/BrandDataReducer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/reducers/ConditionData.json" afterPath="$PROJECT_DIR$/src/reducers/Data/ConditionData.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/reducers/ConditionDataReducer.js" afterPath="$PROJECT_DIR$/src/reducers/Data/ConditionDataReducer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/reducers/SizeData.json" afterPath="$PROJECT_DIR$/src/reducers/Data/SizeData.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/reducers/SizeDataReducer.js" afterPath="$PROJECT_DIR$/src/reducers/Data/SizeDataReducer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Router.js" afterPath="$PROJECT_DIR$/src/Router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/ItemActions/ClothingActions.js" afterPath="$PROJECT_DIR$/src/actions/ItemActions/ClothingActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/ItemActions/ElectronicsActions.js" afterPath="$PROJECT_DIR$/src/actions/ItemActions/ElectronicsActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/ItemActions/ShoesActions.js" afterPath="$PROJECT_DIR$/src/actions/ItemActions/ShoesActions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddItem/AddClothing.js" afterPath="$PROJECT_DIR$/src/components/AddItem/AddClothing.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddItem/AddElectronics.js" afterPath="$PROJECT_DIR$/src/components/AddItem/AddElectronics.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddItem/AddShoes.js" afterPath="$PROJECT_DIR$/src/components/AddItem/AddShoes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js" afterPath="$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Inventories/ElectronicsInventory.js" afterPath="$PROJECT_DIR$/src/components/Inventories/ElectronicsInventory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js" afterPath="$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js" afterPath="$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js" afterPath="$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main.js" afterPath="$PROJECT_DIR$/src/components/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/AddItemReducers/AddClothingReducer.js" afterPath="$PROJECT_DIR$/src/reducers/AddItemReducers/AddClothingReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/AddItemReducers/AddElectronicsReducer.js" afterPath="$PROJECT_DIR$/src/reducers/AddItemReducers/AddElectronicsReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/AddItemReducers/AddShoesReducer.js" afterPath="$PROJECT_DIR$/src/reducers/AddItemReducers/AddShoesReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,126 +19,204 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TicketItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddClothing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddClothing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothingItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoesItem.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionData.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/Data/ConditionData.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="151" column="19" lean-forward="true" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#2678#3038#0" expanded="false" />
-                <element signature="e#3118#3503#0" expanded="false" />
-                <element signature="e#3893#4260#0" expanded="false" />
-                <element signature="e#4340#4725#0" expanded="false" />
-                <element signature="e#5117#5490#0" expanded="false" />
-                <element signature="e#5570#5955#0" expanded="false" />
-                <element signature="e#6362#6732#0" expanded="false" />
-                <element signature="e#6812#7197#0" expanded="false" />
-                <element signature="e#7822#8203#0" expanded="false" />
-                <element signature="e#8574#8954#0" expanded="false" />
-                <element signature="e#9342#9728#0" expanded="false" />
-                <element signature="e#10111#10494#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTicketReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddTicketReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="68" column="37" lean-forward="true" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/ItemReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddClothingReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddClothingReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ShoesInventory.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClothingItem.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="681">
+                  <caret line="62" column="73" lean-forward="false" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ElectronicItem.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="533">
+                  <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="121" selection-end-column="5" />
+                  <folding>
+                    <element signature="n#!!block;n#renderInformation#0;n#ElectronicItem#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Router.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Router.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="156">
+                  <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#2680#3040#0" expanded="false" />
+                    <element signature="e#3120#3505#0" expanded="false" />
+                    <element signature="e#3895#4262#0" expanded="false" />
+                    <element signature="e#4342#4727#0" expanded="false" />
+                    <element signature="e#5119#5492#0" expanded="false" />
+                    <element signature="e#5572#5957#0" expanded="false" />
+                    <element signature="e#6364#6734#0" expanded="false" />
+                    <element signature="e#6814#7199#0" expanded="false" />
+                    <element signature="e#7824#8205#0" expanded="false" />
+                    <element signature="e#8576#8956#0" expanded="false" />
+                    <element signature="e#9344#9730#0" expanded="false" />
+                    <element signature="e#10113#10496#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddShoesReducer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddShoesReducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#74#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClothingInventory.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddClothing.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddClothing.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="566">
+                  <caret line="190" column="25" lean-forward="false" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClothingActions.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/actions/ItemActions/ClothingActions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="660">
+                  <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#0#97#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="AddElectronics.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddElectronics.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="886">
+                  <caret line="177" column="27" lean-forward="true" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="n#!!block;n#renderSellDate#0;n#AddElectronics#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddShoes.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddShoes.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="259">
+                  <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#741#920#0" expanded="false" />
+                    <element signature="n#!!block;n#renderSellDate#0;n#AddShoes#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddClothingReducer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddClothingReducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddElectronicsReducer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddElectronicsReducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#0#86#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ShoesItem.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="82" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TicketItem.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1193">
+                  <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="84" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddTickets.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddTickets.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="815">
+                  <caret line="311" column="29" lean-forward="false" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="n#!!block;n#onQuantityPlusPress#0;n#AddTickets#0" expanded="false" />
+                    <element signature="n#!!block;n#onQuantityMinusPress#0;n#AddTickets#0" expanded="false" />
+                    <element signature="n#!!block;n#renderEventDate#0;n#AddTickets#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/reducers/AddItemReducers/AddKicksReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Inventories/KicksInventory.js" />
         <option value="$PROJECT_DIR$/src/actions/ItemActions/KicksActions.js" />
-        <option value="$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js" />
         <option value="$PROJECT_DIR$/src/reducers/SizeDataReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/SizeData.json" />
         <option value="$PROJECT_DIR$/src/reducers/ConditionData.json" />
@@ -205,25 +264,26 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/reducers/AddItemReducers/AddShoesReducer.js" />
         <option value="$PROJECT_DIR$/src/actions/ItemActions/ShoesActions.js" />
-        <option value="$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js" />
         <option value="$PROJECT_DIR$/src/components/Inventories/ElectronicsInventory.js" />
         <option value="$PROJECT_DIR$/src/reducers/Data/ConditionDataReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/AddItem/AddShoes.js" />
         <option value="$PROJECT_DIR$/src/actions/ItemActions/ElectronicsActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/Data/ElectronicConditionData" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/Data/ElectronicConditionDataReducer.json" />
         <option value="$PROJECT_DIR$/src/reducers/Data/ElectronicConditionDataReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/AddItem/AddElectronics.js" />
         <option value="$PROJECT_DIR$/src/reducers/AddItemReducers/AddElectronicsReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js" />
-        <option value="$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js" />
         <option value="$PROJECT_DIR$/src/reducers/Data/ClothingSizeData.json" />
         <option value="$PROJECT_DIR$/src/actions/ItemActions/ClothingActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/AddItemReducers/AddClothingReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/AddItem/AddClothing.js" />
-        <option value="$PROJECT_DIR$/src/Router.js" />
         <option value="$PROJECT_DIR$/src/components/Main.js" />
+        <option value="$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js" />
+        <option value="$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js" />
+        <option value="$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js" />
+        <option value="$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js" />
+        <option value="$PROJECT_DIR$/src/components/AddItem/AddClothing.js" />
+        <option value="$PROJECT_DIR$/src/components/AddItem/AddShoes.js" />
+        <option value="$PROJECT_DIR$/src/components/AddItem/AddElectronics.js" />
+        <option value="$PROJECT_DIR$/src/Router.js" />
       </list>
     </option>
   </component>
@@ -243,10 +303,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="794" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="470" />
     <option name="y" value="23" />
-    <option name="width" value="882" />
+    <option name="width" value="1206" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -470,15 +530,15 @@
       <option name="presentableId" value="Default" />
       <updated>1525640108555</updated>
       <workItem from="1525640111137" duration="20424000" />
-      <workItem from="1525709479154" duration="8687000" />
+      <workItem from="1525709479154" duration="25870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29111000" />
+    <option name="totallyTimeSpent" value="46294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="794" y="23" width="882" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -493,7 +553,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20892857" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -509,35 +569,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -547,7 +578,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -564,9 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#88#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,16 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/ItemActions/TicketActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#91#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -694,98 +721,6 @@
         <state relative-caret-position="30">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddTickets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <marker date="1525645524000" expanded="true" signature="7:357" ph="..." />
-            <marker date="1525645524000" expanded="true" signature="394:9659" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="409:461" ph="{&quot;sellDate&quot;: &quot;&quot;...}" />
-            <marker date="1525645524000" expanded="true" signature="484:1055" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="818:1047" ph="{&quot;eventName&quot;: eventName...}" />
-            <marker date="1525645524000" expanded="false" signature="1098:1260" ph="{...}" />
-            <marker date="1525645524000" expanded="false" signature="1304:1465" ph="{...}" />
-            <marker date="1525645524000" expanded="false" signature="1489:2136" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="1534:1824" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="1555:1814" ph="&lt;DatePicker/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="1838:2130" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="1859:2120" ph="&lt;DatePicker/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="2159:2802" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="2203:2492" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="2224:2482" ph="&lt;DatePicker/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="2506:2796" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="2527:2786" ph="&lt;DatePicker/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="2818:9657" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="3126:9638" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="3175:9618" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="3227:3622" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="3335:3594" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="3644:4859" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="3731:4831" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="3931:4799" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="4002:4177" ph="&lt;MinusButton/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="4210:4557" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="4590:4763" ph="&lt;PlusButton/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="4881:6603" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="4912:5711" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="4980:5182" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="5211:5679" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="5359:5643" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="5737:6575" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="5852:6053" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6082:6543" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6223:6507" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6625:8322" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6656:8294" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6792:8262" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6864:7298" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="6977:7258" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="7331:7761" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="7444:7721" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="7794:8226" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="7908:8186" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="8344:9141" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="8494:9113" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="8507:8755" ph="{&quot;borderColor&quot;: '##e6e6e6'...}" />
-            <marker date="1525645524000" expanded="true" signature="8786:9081" ph="&lt;TextInput/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="9163:9593" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="9194:9565" ph="&lt;TouchableWithoutFeedback/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="9289:9513" ph="&lt;View/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="9350:9477" ph="&lt;Text/&gt;" />
-            <marker date="1525645524000" expanded="true" signature="9676:11151" ph="{...}" />
-            <marker date="1525645524000" expanded="true" signature="9699:9758" ph="{&quot;backgroundColor&quot;: '##42A5F5'...}" />
-            <marker date="1525645524000" expanded="true" signature="9780:9939" ph="{&quot;backgroundColor&quot;: '##fbfbfb'...}" />
-            <marker date="1525645524000" expanded="true" signature="9957:10066" ph="{&quot;backgroundColor&quot;: '##fbfbfb'...}" />
-            <marker date="1525645524000" expanded="true" signature="10089:10296" ph="{&quot;borderColor&quot;: '##e6e6e6'...}" />
-            <marker date="1525645524000" expanded="true" signature="10318:10465" ph="{&quot;flexDirection&quot;: 'column'...}" />
-            <marker date="1525645524000" expanded="true" signature="10487:10614" ph="{&quot;borderColor&quot;: '##e6e6e6'...}" />
-            <marker date="1525645524000" expanded="true" signature="10630:10767" ph="{&quot;justifyContent&quot;: 'center'...}" />
-            <marker date="1525645524000" expanded="true" signature="10786:11040" ph="{&quot;backgroundColor&quot;: '##82b7fc'...}" />
-            <marker date="1525645524000" expanded="true" signature="11061:11149" ph="{&quot;alignSelf&quot;: 'flex-start'...}" />
-            <marker date="1525645524000" expanded="true" signature="11188:11398" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/ItemActions/ShoesActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#88#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,74 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddShoesReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Inventories/ElectronicsInventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddElectronicsReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddShoes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#!!block;n#renderSellDate#0;n#AddShoes#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddElectronics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#!!block;n#renderSellDate#0;n#AddElectronics#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/Data/ClothingSizeData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -963,13 +830,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="332">
+          <caret line="68" column="37" lean-forward="true" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/ItemActions/TicketActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/ItemActions/ShoesActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/ItemReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1193">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Inventories/ElectronicsInventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddTicketReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddShoesReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#74#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddElectronicsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Inventories/ShoesInventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -977,32 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/ItemReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddClothing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="68" column="37" lean-forward="true" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1017,49 +932,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Router.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Inventories/ClothingInventory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="151" column="19" lean-forward="true" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+        <state relative-caret-position="480">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#2678#3038#0" expanded="false" />
-            <element signature="e#3118#3503#0" expanded="false" />
-            <element signature="e#3893#4260#0" expanded="false" />
-            <element signature="e#4340#4725#0" expanded="false" />
-            <element signature="e#5117#5490#0" expanded="false" />
-            <element signature="e#5570#5955#0" expanded="false" />
-            <element signature="e#6362#6732#0" expanded="false" />
-            <element signature="e#6812#7197#0" expanded="false" />
-            <element signature="e#7822#8203#0" expanded="false" />
-            <element signature="e#8574#8954#0" expanded="false" />
-            <element signature="e#9342#9728#0" expanded="false" />
-            <element signature="e#10111#10494#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/AddItemReducers/AddTicketReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/TicketItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ShoesItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ClothingItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="62" column="73" lean-forward="false" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InventoryItems/ElectronicItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#renderInformation#0;n#ElectronicItem#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddClothing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="190" column="25" lean-forward="false" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddTickets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="311" column="29" lean-forward="false" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#onQuantityPlusPress#0;n#AddTickets#0" expanded="false" />
+            <element signature="n#!!block;n#onQuantityMinusPress#0;n#AddTickets#0" expanded="false" />
+            <element signature="n#!!block;n#renderEventDate#0;n#AddTickets#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddShoes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#741#920#0" expanded="false" />
+            <element signature="n#!!block;n#renderSellDate#0;n#AddShoes#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddItem/AddElectronics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="177" column="27" lean-forward="true" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#renderSellDate#0;n#AddElectronics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2680#3040#0" expanded="false" />
+            <element signature="e#3120#3505#0" expanded="false" />
+            <element signature="e#3895#4262#0" expanded="false" />
+            <element signature="e#4342#4727#0" expanded="false" />
+            <element signature="e#5119#5492#0" expanded="false" />
+            <element signature="e#5572#5957#0" expanded="false" />
+            <element signature="e#6364#6734#0" expanded="false" />
+            <element signature="e#6814#7199#0" expanded="false" />
+            <element signature="e#7824#8205#0" expanded="false" />
+            <element signature="e#8576#8956#0" expanded="false" />
+            <element signature="e#9344#9730#0" expanded="false" />
+            <element signature="e#10113#10496#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

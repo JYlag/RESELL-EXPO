@@ -20,7 +20,6 @@ const RouterComponent = () => {
       <Router>
           <Scene key="root" hideNavBar>
               <Scene key="auth">
-
                     <Scene
                     key="login"
                     component={LoginForm}
@@ -52,7 +51,7 @@ const RouterComponent = () => {
               </Scene>
               <Scene key="main">
                   <Scene // Main Category/Settings
-                  key="main"
+                  key="mainSec"
                   component={Main}
                   title="ReSell"
                   navigationBarStyle={{ backgroundColor: '#1976D2' }}
