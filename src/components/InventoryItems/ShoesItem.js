@@ -20,6 +20,9 @@ class ShoesItem extends Component {
     }
 
     render() {
+
+        const { shoe } = this.props;
+
         return (
             <View>
                 <TouchableOpacity>
@@ -28,7 +31,7 @@ class ShoesItem extends Component {
                             <Text>TESTING</Text>
                         </View>
                         <View>
-                            <Text>SHOES NAME</Text>
+                            <Text>{shoe.name}</Text>
                         </View>
                     </View>
                 </TouchableOpacity>

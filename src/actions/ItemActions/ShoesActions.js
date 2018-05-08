@@ -13,14 +13,14 @@ export const shoeUpdated = ({ prop, value}) => {
     };
 };
 
-export const shoeCreate = ({ shoes, size, retailPrice, resellPrice, brand, condition, buyer, sellDate }) => {
+export const shoeCreate = ({ name, size, retailPrice, resellPrice, brand, condition, buyer, sellDate }) => {
 
     const { currentUser } = firebase.auth();
 
     return (dispatch) => {
         firebase.database().ref(`users/${currentUser.uid}/shoes`)
             .push({
-                shoes,
+                name,
                 size,
                 retailPrice,
                 resellPrice,

@@ -13,20 +13,21 @@ export const electronicsUpdated = ({ prop, value}) => {
     };
 };
 
-export const electronicsCreate = ({ entity, retailPrice, resellPrice, brand, condition, buyer, otherInfo }) => {
+export const electronicsCreate = ({ name, retailPrice, resellPrice, brand, condition, buyer, otherInfo, sellDate }) => {
 
     const { currentUser } = firebase.auth();
 
     return (dispatch) => {
         firebase.database().ref(`users/${currentUser.uid}/electronics`)
             .push({
-                entity: "",
+                name,
                 retailPrice,
                 resellPrice,
-                brand: "",
-                condition: "",
-                buyer: "",
-                otherInfo: ""
+                brand,
+                condition,
+                buyer,
+                otherInfo,
+                sellDate
             })
             .then( () => {
                 dispatch({ type: ELECTRONICS_CREATE });

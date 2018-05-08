@@ -16,7 +16,7 @@ class AddShoes extends Component {
 
     onButtonPress() {
         const {
-            shoes,
+            name,
             size,
             retailPrice,
             resellPrice,
@@ -30,7 +30,7 @@ class AddShoes extends Component {
         } = this.state;
 
         this.props.shoeCreate({
-            shoes,
+            name,
             size,
             retailPrice,
             resellPrice,
@@ -69,7 +69,7 @@ class AddShoes extends Component {
                     <View>
                         <TextInput
                         placeholder="Enter Shoes Name"
-                        onChangeText={ value => this.props.shoeUpdated({ prop: 'shoes', value })}
+                        onChangeText={ value => this.props.shoeUpdated({ prop: 'name', value })}
                         />
                     </View>
                     <View>
@@ -150,7 +150,7 @@ class AddShoes extends Component {
 
 const mapStateToProps = (state) => {
     const {
-        shoes,
+        name,
         size,
         retailPrice,
         resellPrice,
@@ -162,7 +162,7 @@ const mapStateToProps = (state) => {
 
 
     return {
-        shoes,
+        name,
         size,
         retailPrice,
         resellPrice,

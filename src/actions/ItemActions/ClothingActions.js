@@ -1,51 +1,50 @@
 import {
-    TICKET_UPDATED,
-    TICKET_FETCH_SUCCESS,
-    TICKET_CREATE
+    CLOTHING_UPDATED,
+    CLOTHING_CREATE,
+    CLOTHING_FETCH_SUCCESS
 } from "../types";
 import firebase from 'firebase';
 import { Actions } from 'react-native-router-flux';
 
-export const ticketUpdated = ({ prop, value}) => {
+export const clothingUpdated = ({ prop, value}) => {
     return {
-        type: TICKET_UPDATED,
+        type: CLOTHING_UPDATED,
         payload: { prop, value}
     };
 };
 
-export const ticketCreate = ({ eventName, quantity, retailPrice, resellPrice, section, row, seat, otherInfo, eventDate, sellDate}) => {
+export const clothingCreate = ({ name, size, retailPrice, resellPrice, brand, condition, buyer, sellDate, otherInfo }) => {
 
     const { currentUser } = firebase.auth();
 
     return (dispatch) => {
-        firebase.database().ref(`users/${currentUser.uid}/tickets`)
+        firebase.database().ref(`users/${currentUser.uid}/clothing`)
             .push({
-                eventName,
-                quantity,
+                name,
+                size,
                 retailPrice,
                 resellPrice,
-                section,
-                row,
-                seat,
-                otherInfo,
-                eventDate,
-                sellDate
+                brand,
+                condition,
+                buyer,
+                sellDate,
+                otherInfo
             })
             .then( () => {
-                dispatch({ type: TICKET_CREATE });
-                Actions.ticket_inventory();
+                dispatch({ type: CLOTHING_CREATE });
+                Actions.clothing_inventory();
             });
     };
 };
 
-export const fetchTickets = () => {
+export const fetchClothing = () => {
 
     const { currentUser } = firebase.auth();
 
     return ( dispatch ) => {
-        firebase.database().ref(`users/${currentUser.uid}/tickets`)
+        firebase.database().ref(`users/${currentUser.uid}/clothing`)
             .on( 'value', snapshot => {
-                dispatch({ type: TICKET_FETCH_SUCCESS, payload: snapshot.val() })
+                dispatch({ type: CLOTHING_FETCH_SUCCESS, payload: snapshot.val() })
             });
     };
 };
