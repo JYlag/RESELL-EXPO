@@ -21,15 +21,13 @@ class ElectronicsInventory extends Component {
         this.createDataSource(nextProps)
     }
 
-    createDataSource({ items }) {
+    createDataSource({ electronics }) {
 
         const ds = new ListView.DataSource({
             rowHasChanged: (r1,r2) => r1 !== r2
         });
 
-        console.log(items);
-
-        this.dataSource = ds.cloneWithRows(items);
+        this.dataSource = ds.cloneWithRows(electronics);
     }
 
     renderRow(item) {
@@ -57,13 +55,11 @@ const styles = {
 }
 
 const mapStateToProps = state => {
-    const items = _.map(state.items, ( val, uid ) => {
+    const electronics = _.map(state.items, ( val, uid ) => {
         return {...val, uid};
     });
 
-    console.log(items);
-
-    return { items };
+    return { electronics };
 };
 
 export default connect(mapStateToProps, { fetchElectronics })(ElectronicsInventory);

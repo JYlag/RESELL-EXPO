@@ -4,21 +4,22 @@ import {
 } from "../../actions/types";
 
 const INITIAL_STATE = {
-    entity: "",
+    name: "",
     retailPrice: 0,
     resellPrice: 0,
     brand: "",
     condition: "",
-    seller: "",
-    otherInfo: ""
+    buyer: "",
+    otherInfo: "",
+    sellDate: ""
 };
 
 export default (state = INITIAL_STATE, action ) => {
 
     switch ( action.type ) {
-        case ELECTRONICS_CREATE:
-            return {...state, [action.payload.prop]: action.payload.value};
         case ELECTRONICS_UPDATED:
+            return {...state, [action.payload.prop]: action.payload.value};
+        case ELECTRONICS_CREATE:
             return INITIAL_STATE;
         default:
             return state;

@@ -1,0 +1,147 @@
+[
+  {
+    "value": "1.5Y",
+    "size": 1.5,
+    "type": "Youth"
+  },
+  {
+    "value": "2Y",
+    "size": 2,
+    "type": "Youth"
+  },
+  {
+    "value": "2.5Y",
+    "size": 2.5,
+    "type": "Youth"
+  },
+  {
+    "value": "3Y",
+    "size": 3,
+    "type": "Youth"
+  },
+  {
+    "value": "3.5Y",
+    "size": 3.5,
+    "type": "Youth"
+  },
+  {
+    "value": "4Y",
+    "size": 4,
+    "type": "Youth"
+  },
+  {
+    "value": "4.5Y",
+    "size": 4.5,
+    "type": "Youth"
+  },
+  {
+    "value": "5Y",
+    "size": 5,
+    "type": "Youth"
+  },
+  {
+    "value": "5.5Y",
+    "size": 5,
+    "type": "Youth"
+  },
+  {
+    "value": "6Y",
+    "size": 6,
+    "type": "Youth"
+  },
+  {
+    "value": "6.5Y",
+    "size": 6.5,
+    "type": "Youth"
+  },
+  {
+    "value": "7Y",
+    "size": 7,
+    "type": "Youth"
+  },
+  {
+    "value": "7.5",
+    "size": 7.5,
+    "type": "Men's"
+  },
+  {
+    "value": "8",
+    "size": 8,
+    "type": "Men's"
+  },
+  {
+    "value": "8.5",
+    "size": 8.5,
+    "type": "Men's"
+  },
+  {
+    "value": "9",
+    "size": 9,
+    "type": "Men's"
+  },
+  {
+    "value": "9.5",
+    "size": 9.5,
+    "type": "Men's"
+  },
+  {
+    "value": "10",
+    "size": 10,
+    "type": "Men's"
+  },
+  {
+    "value": "10.5",
+    "size": 10.5,
+    "type": "Men's"
+  },
+  {
+    "value": "11",
+    "size": 11,
+    "type": "Men's"
+  },
+  {
+    "value": "11.5",
+    "size": 11.5,
+    "type": "Men's"
+  },
+  {
+    "value": "12",
+    "size": 12,
+    "type": "Men's"
+  },
+  {
+    "value": "12.5",
+    "size": 12.5,
+    "type": "Men's"
+  },
+  {
+    "value": "13",
+    "size": 13,
+    "type": "Men's"
+  },
+  {
+    "value": "14",
+    "size": 14,
+    "type": "Men's"
+  },
+  {
+    "value": "15",
+    "size": 15,
+    "type": "Men's"
+  },
+  {
+    "value": "16",
+    "size": 16,
+    "type": "Men's"
+  },
+  {
+    "value": "17",
+    "size": 17,
+    "type": "Men's"
+  },
+  {
+    "value": "18",
+    "size": 18,
+    "type": "Men's"
+  }
+]

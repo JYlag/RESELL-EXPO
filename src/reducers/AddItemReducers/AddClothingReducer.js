@@ -4,13 +4,14 @@ import {
 } from "../../actions/types";
 
 const INITIAL_STATE = {
-    clothing: "",
+    name: "",
     size: "",
     retailPrice: 0,
     resellPrice: 0,
     brand: "",
     condition: "",
-    seller: ""
+    buyer: "",
+    otherInfo: ""
 
 };
 

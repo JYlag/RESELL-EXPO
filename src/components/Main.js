@@ -64,7 +64,7 @@ class Main extends Component {
                                 <Text style={ categoryTitleStyle }>Clothing</Text>
                                 <View style={ iconStyle }>
                                     <TouchableOpacity
-                                        onPress={ () => { } }
+                                        onPress={ () => { Actions.clothing_inventory() } }
                                         style={{ flex:1 }}
                                     >
                                         <Ionicon
@@ -80,7 +80,7 @@ class Main extends Component {
                                 <Text style={ categoryTitleStyle }>Electronics</Text>
                                 <View style={ iconStyle }>
                                     <TouchableOpacity
-                                        onPress={ () => { } }
+                                        onPress={ () => { Actions.electronics_inventory() } }
                                         style={{ flex:1 }}
                                     >
                                         <MaterialCommunityIcon

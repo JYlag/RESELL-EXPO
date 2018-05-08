@@ -4,7 +4,7 @@ import {
 } from "../../actions/types";
 
 const INITIAL_STATE = {
-    shoes: "",
+    name: "",
     size: "",
     retailPrice: 0,
     resellPrice: 0,
